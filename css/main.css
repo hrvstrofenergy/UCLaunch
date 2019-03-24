@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #0b222b;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  color: #FFFFFF
+}
+
+/****************** VIEWPORTS ******************/
+@media screen and (min-width: 1000px)
+[class*="img-"] {
+    width: 33%;
+    float: left;
+    padding: 5px 5px;
+}
+@media screen and (min-width: 768px)
+[class*="img-"] {
+    width: 50%;
+    float: left;
+    padding: 5px 5px;
+}
+@media screen and (max-width: 650px)
+  .rwdTable td {
+    display: block;
+}
+.container {
+
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
