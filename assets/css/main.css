@@ -3,8 +3,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: #0b222b;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
-  color: #FFFFFF
+  background-image: url("../images/dark-wood.png");
+  color: #FFFFFF;
+  text-shadow:5px 5px 10px #7E7E7E;
 }
 .countdownContainer{
   margin-top: 10rem;
