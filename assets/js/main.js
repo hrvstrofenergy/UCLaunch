@@ -14,10 +14,10 @@ let countDown = new Date('Apr 2, 2019 11:00:00 EST').getTime(),
         document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
         document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
 
-      // do something later when date is reached
-      if (distance < 0) {
-       clearInterval(x);
-       HYPE!;
-      }
+      //do something later when date is reached
+      //if (distance < 0) {
+      //  clearInterval(x);
+      //  'HYPE!;
+      //}
 
     }, second)
